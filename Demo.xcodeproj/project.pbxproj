@@ -23,9 +23,7 @@
 		EEC1B44C23892AA000895378 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B44B23892AA000895378 /* LoginController.swift */; };
 		EEEA6DDA234BB9B200FF60BE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DD9234BB9B200FF60BE /* HomeController.swift */; };
 		EEEA6DDE234BBA2800FF60BE /* CoreTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DDD234BBA2800FF60BE /* CoreTextField.swift */; };
-		EEEA6DE4234BBC3C00FF60BE /* CoreDatePickerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DE3234BBC3C00FF60BE /* CoreDatePickerTextField.swift */; };
 		EEEA6DE7234BBC6B00FF60BE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DE6234BBC6B00FF60BE /* Constants.swift */; };
-		EEEA6DE9234BBC8300FF60BE /* CoreToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DE8234BBC8300FF60BE /* CoreToolbar.swift */; };
 		EEEA6DEB234BBCAA00FF60BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DEA234BBCAA00FF60BE /* Extensions.swift */; };
 		EEEA6DED234BBE8A00FF60BE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEA6DEC234BBE8A00FF60BE /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
@@ -51,9 +49,7 @@
 		EEC1B44B23892AA000895378 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		EEEA6DD9234BB9B200FF60BE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EEEA6DDD234BBA2800FF60BE /* CoreTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTextField.swift; sourceTree = "<group>"; };
-		EEEA6DE3234BBC3C00FF60BE /* CoreDatePickerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDatePickerTextField.swift; sourceTree = "<group>"; };
 		EEEA6DE6234BBC6B00FF60BE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EEEA6DE8234BBC8300FF60BE /* CoreToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreToolbar.swift; sourceTree = "<group>"; };
 		EEEA6DEA234BBCAA00FF60BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		EEEA6DEC234BBE8A00FF60BE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,8 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				EEEA6DDD234BBA2800FF60BE /* CoreTextField.swift */,
-				EEEA6DE3234BBC3C00FF60BE /* CoreDatePickerTextField.swift */,
-				EEEA6DE8234BBC8300FF60BE /* CoreToolbar.swift */,
 			);
 			path = CoreClasses;
 			sourceTree = "<group>";
@@ -328,11 +322,9 @@
 				EEEA6DDE234BBA2800FF60BE /* CoreTextField.swift in Sources */,
 				EEC1B44C23892AA000895378 /* LoginController.swift in Sources */,
 				EE15DD1223892EE70062FD38 /* CoreResponseData.swift in Sources */,
-				EEEA6DE4234BBC3C00FF60BE /* CoreDatePickerTextField.swift in Sources */,
 				EE79DB09234B9177001DBE2E /* Demo.xcdatamodeld in Sources */,
 				EE15DD0E23892D860062FD38 /* NetworkingSetup.swift in Sources */,
 				EEEA6DEB234BBCAA00FF60BE /* Extensions.swift in Sources */,
-				EEEA6DE9234BBC8300FF60BE /* CoreToolbar.swift in Sources */,
 				EE79DB01234B9177001DBE2E /* SceneDelegate.swift in Sources */,
 				EEEA6DDA234BB9B200FF60BE /* HomeController.swift in Sources */,
 				EEEA6DE7234BBC6B00FF60BE /* Constants.swift in Sources */,

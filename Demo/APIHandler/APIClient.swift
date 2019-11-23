@@ -25,10 +25,6 @@ struct APIClient {
         return AF.request(route)
             .responseDecodable (decoder: decoder){ (response: DataResponse<T, AFError>) in
                 LoadingView.hideLoading()
-                /*if let data = response.data {
-                    print("Response: ")
-                    print(String(data: data, encoding: .utf8) ?? "")
-                }*/
                 completion(response.result)
         }
     }

@@ -11,13 +11,18 @@ import UIKit
 class HomeController: UITableViewController {
 
     //MARK: Outlets
+    @IBOutlet weak var hexLabel: UILabel!
     
     //MARK: - Main View Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        var bounds = tableView.bounds
-        bounds.size.height = bounds.size.height - 44
-        tableView.tableHeaderView?.frame = bounds
+        var convertedString = ""
+        for singleHex in Constants.hexStrings {
+            let newConvertedString = Constants.hexToStr(text: singleHex)
+            convertedString = newConvertedString
+        }
+        convertedString = String(convertedString.dropFirst(4))
+        hexLabel.text = convertedString
     }
     
     //MARK: - Handle Button Actions
